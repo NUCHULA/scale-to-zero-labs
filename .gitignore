@@ -1,0 +1,23 @@
+# ---- Swift / SPM ----
+.build/
+.swiftpm/
+DerivedData/
+*.xcuserstate
+
+# ---- Python ----
+__pycache__/
+*.pyc
+
+# ---- Lab runtime artifacts (เกิดตอนรัน — ไม่ commit) ----
+# (ปกติ workdir อยู่ที่ ~/nanos-microvm-lab นอก repo แต่กันไว้เผื่อรันใน repo)
+*.img
+*.mem
+*.state
+*.sock
+*.log
+results.json
+served_page.html
+build/
+
+# ---- macOS ----
+.DS_Store
